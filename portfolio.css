@@ -77,7 +77,6 @@ a,
   }
 }
 
-
 .super-navbar__item-list a {
   letter-spacing: 0.05rem !important;
 }
@@ -85,7 +84,6 @@ a,
 .super-navbar__item-list a[target=_blank] {
   opacity: 1 !important;
 }
-
 
 .super-footer.stack,
 .super-footer.corners {
@@ -122,6 +120,15 @@ a,
   .super-footer__footnote {
     font-size: 100% !important;
   }
+}
+
+.notion-heading {
+  padding: 0 !important;
+}
+
+.notion-collection-gallery {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 .notion-text .notion-text__content .notion-semantic-string {
