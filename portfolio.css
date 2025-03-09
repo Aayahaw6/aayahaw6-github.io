@@ -402,7 +402,6 @@ nav .super-navbar__content::after {
   z-index: -1;
 }
 
-
 /* Display & Layout */
 .notion-toggle {
   display: none;
@@ -410,6 +409,10 @@ nav .super-navbar__content::after {
 
 .notion-collection-table {
   border: 0 !important;
+}
+
+.notion-collection-gallery {
+  border-top: none !important;
 }
 
 /* Styles for .notion-collection elements */
