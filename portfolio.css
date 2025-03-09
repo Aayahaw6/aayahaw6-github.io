@@ -309,7 +309,6 @@ html,
   }
 }
 
-
 h1.notion-heading {
   margin-top: 6rem;
   margin-bottom: 1rem;
@@ -415,6 +414,8 @@ nav .super-navbar__content::after {
   border-top: none !important;
 }
 
+/*insert "Base Styles for the gallery" here*/
+
 /* Styles for .notion-collection elements */
 .notion-collection .notion-collection-table__wrapper .notion-collection-table td,
 .notion-collection .notion-collection-table__wrapper .notion-collection-table tr {
@@ -454,6 +455,28 @@ nav .super-navbar__content::after {
 
 .notion-collection .notion-collection-table__wrapper .notion-collection-table .notion-collection-table__cell .notion-semantic-string {
   white-space: pre-wrap;
+}
+
+/* Styles for the first child */
+.notion-collection .notion-collection-table__wrapper .notion-collection-table tr:first-child .notion-collection-table__cell.date .notion-property__date span.date {
+  margin-top: 0;
+}
+
+.notion-column-list {
+  padding-top: 0rem !important;
+  margin-bottom: 2rem !important;
+}
+.notion-column-list ~ .notion-column-list {
+  padding-top: 2.75rem !important;
+  padding-bottom: 0rem !important;
+}
+.notion-column-list ~ .notion-column-list:before {
+  content: "";
+  opacity: 0.15 !important;
+  position: relative;
+  width: 100%;
+  height: 1px;
+  top: -4rem;
 }
 
 /* Pages */
