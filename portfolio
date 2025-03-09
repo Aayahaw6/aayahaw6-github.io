@@ -1,5 +1,4 @@
-<style>
-
+/* Start of typography **********/
 @font-face {
   font-family: "Satoshi Variable";
   src: url("https://mattdowney.github.io/primer/fonts/Satoshi-Variable.woff2") format("woff2"), url("https://mattdowney.github.io/primer/fonts/Satoshi-Variable.woff") format("woff");
@@ -337,6 +336,3 @@ nav .super-navbar__content::after {
   margin-bottom: 0rem !important;
   font-style: normal !important;
 }
-
-</style>
-
